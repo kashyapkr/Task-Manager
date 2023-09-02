@@ -33,6 +33,48 @@ td a {
 }
 
 td a:hover {
-    background-color: #007bff; /* Change background color on hover */
+    background-color:	#8f888868; /* Change background color on hover */
     color: #fff;
+}
+.task-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.task-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #070707be; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-container {
+    display: inline-block;
+    margin-right: 10px;
+}
+.delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #ff5733; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the update button */
+.update-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
 }
